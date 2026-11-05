@@ -3,7 +3,7 @@
 **Points** es una aplicación Android para buscar cervecerías y productores artesanales usando la **[Open Brewery DB](https://www.openbrewerydb.org/)**, ver su información de contacto y guardarlas como **Visitadas** o **Pendientes por visitar**.
 Desarrollada en **Kotlin** con arquitectura **MVVM** y una capa **Repository**.
 
-> 🎥 **Video demostrativo:** [Ver acá](LINK_AL_VIDEO)
+> 🎥 **Video demostrativo:** [Ver acá](https://drive.google.com/file/d/1HdUmmh4JlsiRgZ4rmIMIH_qEOfHIahrb/view?usp=sharing)
 
 ---
 
