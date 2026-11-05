@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Beer palette (amber) - light -->
+    <color name="amber_primary">#8B5000</color>
+    <color name="amber_on_primary">#FFFFFF</color>
+    <color name="amber_secondary_container">#FFDDB8</color>
+    <color name="amber_on_secondary_container">#2C1600</color>
+
+    <!-- Beer palette (amber) - dark -->
+    <color name="amber_primary_dark">#FFB86A</color>
+    <color name="amber_on_primary_dark">#4A2800</color>
+    <color name="amber_secondary_container_dark">#5C4127</color>
+    <color name="amber_on_secondary_container_dark">#FFDDB8</color>
+</resources>

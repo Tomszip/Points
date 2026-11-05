@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tabs of the bottom navigation bar -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navBreweries"
+        android:icon="@drawable/ic_brewery"
+        android:title="@string/tab_breweries" />
+    <item
+        android:id="@+id/navFavorites"
+        android:icon="@drawable/ic_bookmark"
+        android:title="@string/tab_favorites" />
+</menu>

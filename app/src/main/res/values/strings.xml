@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Cervecerías</string>
+
+    <!-- Main list -->
+    <string name="list_title">Cervecerías</string>
+    <string name="search_hint_name">Buscar por nombre…</string>
+    <string name="search_hint_city">Buscar por ciudad…</string>
+    <string name="filter_name">Nombre</string>
+    <string name="filter_city">Ciudad</string>
+    <string name="retry">Reintentar</string>
+    <string name="brewery_logo">Logo de la cervecería</string>
+
+    <!-- Navigation and favorites -->
+    <string name="tab_breweries">Cervecerías</string>
+    <string name="tab_favorites">Mis listas</string>
+    <string name="favorites_title">Mis listas</string>
+    <string name="tab_visited">Visitadas</string>
+    <string name="tab_pending">Pendientes</string>
+    <string name="empty_visited">Todavía no marcaste cervecerías como visitadas.</string>
+    <string name="empty_pending">No tenés cervecerías pendientes por visitar.</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Detalle</string>
+    <string name="back">Volver</string>
+    <string name="detail_address">Dirección</string>
+    <string name="detail_phone">Teléfono</string>
+    <string name="detail_website">Sitio web</string>
+    <string name="not_available">No disponible</string>
+    <string name="my_lists">Mis listas</string>
+    <string name="status_visited">Visitada</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="remove_from_lists">Quitar de mis listas</string>
+    <string name="saved_visited">Guardada como visitada</string>
+    <string name="saved_pending">Guardada como pendiente</string>
+    <string name="removed_from_lists">Quitada de tus listas</string>
+
+    <!-- Errors -->
+    <string name="error_no_app">No hay ninguna app para abrir esto.</string>
+    <string name="error_no_connection">Sin conexión a internet. Revisá tu red e intentá de nuevo.</string>
+    <string name="error_timeout">El servidor tardó demasiado en responder.</string>
+    <string name="error_http">El servidor respondió con un error. Probá más tarde.</string>
+    <string name="error_bad_data">Los datos recibidos tienen un formato inesperado.</string>
+    <string name="error_database">No se pudo acceder a la base de datos local.</string>
+    <string name="error_unknown">Ocurrió un error inesperado.</string>
+    <string name="search_no_results">No se encontraron cervecerías.</string>
+</resources>

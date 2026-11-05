@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (dark) -->
+    <style name="Base.Theme.Points" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/amber_primary_dark</item>
+        <item name="colorOnPrimary">@color/amber_on_primary_dark</item>
+        <item name="colorSecondaryContainer">@color/amber_secondary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@color/amber_on_secondary_container_dark</item>
+    </style>
+</resources>
