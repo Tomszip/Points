@@ -14,3 +14,17 @@
 .cxx
 local.properties
 .kotlin
+# Class example used as reference, not part of this project
+/Modelo
+# Personal Android Studio settings (selected device, emulators, etc.)
+/.idea/.name
+/.idea/AndroidProjectSystem.xml
+/.idea/compiler.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deviceManager.xml
+/.idea/gradle.xml
+/.idea/markdown.xml
+/.idea/migrations.xml
+/.idea/misc.xml
+/.idea/runConfigurations.xml
+/.idea/vcs.xml

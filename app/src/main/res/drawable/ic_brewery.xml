@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Beer mug: placeholder / fallback image when a brewery has no favicon -->
+<!-- Beer mug: placeholder / fallback image when a brewery has no favicon.
+     The tint is a plain color (not ?attr) because Picasso loads the placeholder
+     without the app theme, and a theme attribute would be drawn white. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:tint="?attr/colorPrimary"
+    android:tint="@color/brewery_icon"
     android:viewportWidth="24"
     android:viewportHeight="24">
     <!-- foam -->

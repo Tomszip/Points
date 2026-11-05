@@ -1,6 +1,6 @@
-# 🍺 Directorio de Cervecerías
+# 🍺 Points — Directorio de Cervecerías
 
-Aplicación Android para buscar cervecerías y productores artesanales usando la **[Open Brewery DB](https://www.openbrewerydb.org/)**, ver su información de contacto y guardarlas como **Visitadas** o **Pendientes por visitar**.
+**Points** es una aplicación Android para buscar cervecerías y productores artesanales usando la **[Open Brewery DB](https://www.openbrewerydb.org/)**, ver su información de contacto y guardarlas como **Visitadas** o **Pendientes por visitar**.
 Desarrollada en **Kotlin** con arquitectura **MVVM** y una capa **Repository**.
 
 > 🎥 **Video demostrativo:** [Ver acá](LINK_AL_VIDEO)
@@ -22,6 +22,7 @@ Desarrollada en **Kotlin** con arquitectura **MVVM** y una capa **Repository**.
 ## Funcionalidades
 
 - **Listado general** de cervecerías (RecyclerView) con logo, nombre, tipo de establecimiento y ciudad.
+- **Scroll infinito (paginación):** al llegar al final de la lista se pide la página siguiente (20 cervecerías por página), también sobre los resultados de una búsqueda.
 - **Buscador en tiempo real** por **nombre** o por **ciudad**, usando los parámetros `by_name` y `by_city` de la API (con *debounce* de 500 ms para no llamar a la API en cada letra).
 - **Detalle en Jetpack Compose** con dirección completa, teléfono (abre el marcador) y sitio web (abre el navegador).
 - **Mis listas (SQLite):** guardar cada cervecería como *Visitada* o *Pendiente*, cambiarla de lista o quitarla. Funciona **sin conexión**.
@@ -29,7 +30,7 @@ Desarrollada en **Kotlin** con arquitectura **MVVM** y una capa **Repository**.
 - **Recuerda la última búsqueda** (texto y filtro) con SharedPreferences.
 - **Manejo de errores:** sin conexión, tiempo de espera agotado, errores HTTP, JSON inválido, errores de base de datos, búsquedas sin resultados y apps externas inexistentes.
 - **Soporta la rotación** de pantalla sin perder datos ni repetir peticiones.
-- **Tema claro y oscuro** con una paleta ámbar propia.
+- **Modo claro / oscuro** con un toque: botón de **luna** (pasa a oscuro) o **sol** (pasa a claro) en la pantalla principal. La elección se guarda con SharedPreferences y se aplica a todas las pantallas, incluido el detalle en Compose. Paleta ámbar propia.
 
 ---
 

@@ -3,6 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <!-- Launcher icon background (same brown as the logo) -->
+    <color name="ic_launcher_background">#894405</color>
+
+    <!-- Placeholder mug icon (dark variant in values-night) -->
+    <color name="brewery_icon">#8B5000</color>
+
     <!-- Beer palette (amber) - light -->
     <color name="amber_primary">#8B5000</color>
     <color name="amber_on_primary">#FFFFFF</color>

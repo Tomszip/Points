@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cervecerías</string>
+    <string name="app_name">Points</string>
 
     <!-- Main list -->
     <string name="list_title">Cervecerías</string>
@@ -9,6 +9,10 @@
     <string name="filter_city">Ciudad</string>
     <string name="retry">Reintentar</string>
     <string name="brewery_logo">Logo de la cervecería</string>
+
+    <!-- Theme toggle (content descriptions of the sun / moon button) -->
+    <string name="theme_to_dark">Activar modo oscuro</string>
+    <string name="theme_to_light">Activar modo claro</string>
 
     <!-- Navigation and favorites -->
     <string name="tab_breweries">Cervecerías</string>

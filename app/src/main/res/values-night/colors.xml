@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Placeholder mug icon in dark mode -->
+    <color name="brewery_icon">#FFB86A</color>
+</resources>

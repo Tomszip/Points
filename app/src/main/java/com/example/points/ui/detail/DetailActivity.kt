@@ -5,10 +5,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
 import com.example.points.R
 import com.example.points.ui.theme.BreweryTheme
@@ -17,8 +17,10 @@ import com.example.points.util.ViewModelFactory
 /**
  * Hosts the Jetpack Compose detail screen.
  * Receives only the brewery id; the ViewModel loads the rest.
+ * Extends AppCompatActivity (not ComponentActivity) so it follows the theme
+ * chosen inside the app; isSystemInDarkTheme() then reads that choice.
  */
-class DetailActivity : ComponentActivity() {
+class DetailActivity : AppCompatActivity() {
 
     private val viewModel: DetailViewModel by viewModels { ViewModelFactory(this) }
 
